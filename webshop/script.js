@@ -15,7 +15,7 @@ const products = [
 
 function displayProducts(){
   for(const product in products){
-
+    
   }
 }
 
