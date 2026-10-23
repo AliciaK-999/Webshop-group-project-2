@@ -11,8 +11,11 @@ const products = [
   { id: 10, name: "Notebook", price: 99, emoji: "📓", category: "other" },
 ];
 
+
+
 function displayProducts(){
   for(const product in products){
-    
+
   }
 }
+
