@@ -18,6 +18,12 @@ header {
   padding: 20px;
   border-bottom: 3px solid orangered;
 }
+nav a {
+    font-size: 24px;
+    padding: 12px 20px;
+    font-weight: bold;
+    color: #fff9f9;
+}
 
 /* Main content */
 
@@ -105,3 +111,33 @@ footer {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+/* General styling */
+
+{
+box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://media.discordapp.net/attachments/1544607310897348690/1563161328674148362/haven2.jpg?ex=6adc9eee&is=6adb4d6e&hm=72ba7218417e342df2cd2a8a0b38cf2c1c862114222d4d26390d86c98291103d&=&format=webp&width=2048&height=1152");
+  background-color: #222;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
